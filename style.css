@@ -1,0 +1,30 @@
+.jumbotron {
+  /* atas bawah, kiri-kanan  */
+
+  padding-top: 200px;
+  background-color: #fff;
+}
+#about {
+  background-color: #a39ed3;
+}
+#about .container .row .col .title {
+  font-weight: 700;
+}
+
+#need .container .row .col {
+  font-weight: 700;
+}
+
+#close {
+  background-color: #a39ed3;
+  padding-bottom: 100px;
+}
+#footer .container #upper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#footer .container #lower .col .container a {
+  padding-top: 50px;
+  padding-right: 50px;
+  font-size: 22px;
+}
