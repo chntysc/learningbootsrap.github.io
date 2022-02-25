@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+}
+
+#sidenav-1 {
+  top: 300px;
+  left: 50px;
+  overflow: hidden;
+  position: fixed;
+  width: 70px;
+  height: 250px;
+  background-color: #10101d;
+  overflow: hidden;
+}
+
+#sidenav-1 #sidenav-item {
+  width: 100%;
+  color: #ffff;
+  text-align: center;
+}
+#sidenav-1 #sidenav-item a .title {
+  font-size: 10px;
+  text-align: center;
+}
+#sidenav-1 #sidenav-item a {
+  left: 0px;
+}
+
+#sidenav-1 #sidenav-item:hover {
+  background: #423d99;
+}
+
+#workspace {
+  padding-top: 50px;
+  background-image: radial-gradient(#b8aed3 1%, transparent 5%), radial-gradient(#b8aed3 1%, transparent 5%);
+  background-color: #ffffff;
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
+  height: 1000px;
+  width: 10000px;
+}
+
+#footer .container #upper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#footer .container #lower .col .container a {
+  padding-top: 50px;
+  padding-right: 50px;
+  font-size: 22px;
+}
